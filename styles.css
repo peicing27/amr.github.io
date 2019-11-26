@@ -1,0 +1,27 @@
+*{
+  font-family: Helvetica, sans-serif;
+}
+
+body::before {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('mrsa.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.25;
+  filter: blur(2px);
+
+}
+
+nav.navbar-light {
+  padding: 0;
+
+element.style {
+  background-color: black;
+  padding: 1rem;
+}
